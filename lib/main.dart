@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:ifmis/webview/web_view.dart';
 
 void main() {
@@ -7,6 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: IfmisWebVew(),
+      home: Scaffold(
+        body: IfmisWebVew()
+      ),
     );
   }
+
 }
