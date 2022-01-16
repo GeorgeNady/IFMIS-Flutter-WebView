@@ -1,0 +1,6 @@
+package com.george.ifmis.ifmis
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
